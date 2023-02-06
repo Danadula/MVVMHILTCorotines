@@ -1,6 +1,7 @@
 package com.mano.movieslistapp
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -62,7 +63,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         viewModel.responseMoviesList.observe(this) { listTvShows ->
-            movieAdapter.movieShowItem = listTvShows
+            if (listTvShows.isNotEmpty()) {
+                binding.apply {
+                    progressCircular1.visibility = View.GONE
+                    progressCircular2.visibility = View.GONE
+                    progressCircular3.visibility = View.GONE
+
+                }
+                movieAdapter.movieShowItem = listTvShows
+            }
         }
 
     }

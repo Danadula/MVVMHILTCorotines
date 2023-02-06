@@ -31,6 +31,12 @@
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
+            <ProgressBar
+                android:id="@+id/progress_circular1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
@@ -56,6 +62,12 @@
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
+            <ProgressBar
+                android:id="@+id/progress_circular2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvEpisodes"
                 android:layout_width="match_parent"
@@ -80,6 +92,12 @@
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/progress_circular3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvRecentlyAdded"
