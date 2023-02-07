@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupRecyclerView() {
-        movieAdapter = MovieAdapter()
+        movieAdapter = MovieAdapter(this@MainActivity)
 
         binding.recyclerView.apply {
             adapter = movieAdapter
