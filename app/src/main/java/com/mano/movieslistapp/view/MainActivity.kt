@@ -1,4 +1,4 @@
-package com.mano.movieslistapp
+package com.mano.movieslistapp.view
 
 import android.os.Bundle
 import android.view.View

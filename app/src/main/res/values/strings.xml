@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoviesListApp</string>
+    <string name="splashText">Welcome to Movies List App!!</string>
 </resources>
